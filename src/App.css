@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.shape-container {
+  position: absolute; /* set the position to absolute for absolute positioning */
+  border-radius: 50%; /* make the shapes round */
+  transform: translate(-50%, -50%); /* center the shapes */
+  /* overflow: hidden; */
+}
+
